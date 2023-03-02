@@ -1,0 +1,345 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-content {
+  display: flex;
+}
+
+
+/************ Side Navbar *************/
+.navbar-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(6, 39, 87);
+  max-width: 300px;
+  height: 100vh;
+  /* position: fixed;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  bottom: 0; */
+}
+
+
+/************ Side Navbar Group1 *************/
+.navbar-main-sidenavbar {
+  display: flex;
+  padding: 1rem;
+}
+
+.navbar-main-sidenavbar-group1-total{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-main-sidenavbar-group1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar-main-sidenavbar-group1-heading {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-main-sidenavbar-group1-heading-image {
+  max-width: 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar-main-sidenavbar-group1-heading-image img {
+  width: 28px;
+  align-items: center;
+  background-color: aliceblue;
+  border-radius: 50%;
+  padding: 2px;
+}
+
+.navbar-main-sidenavbar-group1-heading-title {
+  color: #fff;
+  font-size: 28px;
+  padding: 0 0.5rem 0;
+}
+
+.navbar-main-sidenavbar-group1-bars{
+  padding: 0 0 0 0.65rem;
+}
+
+.navbar-main-sidenavbar-group1-bars button{
+  color: #fff;
+  background: transparent;
+  font-size: 15px;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+}
+
+.navbar-main-sidenavbar-group1-search {
+  padding: 3.5rem 0 0;
+  max-width: 280px;
+}
+
+.search-bar {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  padding: 8px;
+  background-color: rgb(13, 57, 124);
+  border-radius: 10px;
+}
+
+.search-bar input {
+  flex: 1;
+  padding: 8px;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  border-radius: 10px;
+  color: aliceblue;
+  font-size: 18px;
+  padding: 0 0 0 0.8rem;
+}
+
+.search-bar button {
+  background: transparent;
+  border: 0;
+  outline: 0;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+::placeholder {
+  color: white;
+}
+
+.navbar-main-sidenavbar-group1-lists {
+  padding: 1rem 0 0;
+}
+
+.navbar-main-sidenavbar-group1-lists ul a {
+  text-decoration: none;
+}
+
+.navbar-main-sidenavbar-group1-lists ul a li {
+  list-style-type: none;
+  padding: 0.8rem 0.5rem 0.8rem;
+  color: #e6e4e4;
+  font-size: 18px;
+}
+.navbar-main-sidenavbar-group1-lists ul a li:hover {
+  background-color: #fff;
+  border-radius: 10px;
+  color: #000;
+}
+
+.navbar-main-sidenavbar-group1-lists ul a li  span {
+  padding: 0 0 0 1rem;
+}
+
+
+
+
+/************ Side Navbar Group2 *************/
+.navbar-main-group2 {
+  display: flex;
+  background-color: rgb(15, 47, 94);
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.navbar-main-group2-side1 {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-main-group2-side1-image {
+  max-width: 52px;
+}
+
+.navbar-main-group2-side1-image img {
+  width: 52px;
+  border-radius: 50%;
+}
+
+.navbar-main-group2-side1-title {
+  color: #fff;
+  padding: 0 0 0 1rem;
+}
+
+.navbar-main-group2-side2 button {
+  background: transparent;
+  color: #fff;
+  border: 0;
+  outline: 0;
+  transform: rotate(180deg);
+  font-size: 20px;
+  cursor: pointer;
+}
+
+
+/************ Top Bar *************/
+.content-box{
+    /* margin-left: 17rem; */
+    width: 100%;
+    
+    
+}
+.content-box-bar-name{
+    font-size: 20px;
+    padding: 0.2rem 1rem 0.2rem;
+    background-color: #ebebeb;
+    border-radius: 10px;
+
+    
+}
+
+
+.content-box-bar-name p span{
+    font-weight: 600;
+   
+}
+
+.content-box-bar{
+    display: flex;
+    background-color: #f7f7f7;
+    align-items: center;
+    justify-content: flex-end;
+    border-radius: 10px;
+    box-shadow: 8px 8px 5px rgb(233, 234, 235);
+}
+
+.content-box-bar-icon a{
+    color: #464646;
+    font-size: 24px;
+    padding: 0 1rem 0 0;
+}
+
+.content-box-bar-image{
+    max-width: 50px;
+    padding: 0.2rem 4rem 0.2rem 0;
+    
+}
+
+.content-box-bar-image img{
+    width: 50px;
+    border-radius: 50%;
+    align-items: center;
+    
+}
+
+
+/***********  Content Body c1 ********** */
+.content-box-bar-body{
+    padding: 1rem 0 0 1rem;
+}
+
+.content-box-bar-body-c1{
+    padding: 1rem 0 2rem;
+ 
+}
+.content-box-bar-body-c1-text{
+ font-size: 28px;
+ font-weight: 600;
+ text-decoration: underline;
+ 
+}
+
+.content-box-bar-body-c1-text p{
+    color: #000;
+    
+   }
+
+
+
+
+
+.project_table-add{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 0 0.5rem;
+}
+
+/* table */
+.project_table{
+    padding: 0 10% 0 2%;
+    margin: 1px auto 0;
+}
+
+.project_tables_main{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.project_tables_main thead{
+    background-color: #307daa;
+   
+}
+
+.project_tables_main thead tr th{
+    color: #fff;
+}
+
+.project_tables_main thead tr th,
+.project_tables_main tbody tr td{
+    font-size: 14px;
+    font-weight:600;
+    Letter-spacing: 0.35px;
+   
+    opacity: 1;
+    padding: 8px;
+    vertical-align: top;
+   
+    border: 1px solid #ddd;
+    
+}
+
+.project_tables_main tbody tr td{
+    font-size: 14px;
+    Letter-spacing: 0.35px;
+    font-weight: normal;
+    background-color: #fff;
+    padding: 8px;
+    text-align: center;
+    
+}
+
+.btn-add,
+.btn-delete,
+.btn-update{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    font-size: 18px;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    margin: 0 0.6rem 0 0;
+    cursor: pointer;
+}
+
+.btn-delete{
+    background-color: rgb(233, 38, 38);
+}
+
+.btn-update{
+    background-color: rgb(255, 187, 0);
+}
+.btn-add{
+    background-color: #04aa6d;
+}
+
+.content-del{
+  display: none;
+  transition: 1s;
+  transition-timing-function: ease-in-out;
+}
